@@ -1,0 +1,3 @@
+# Dart JSON Handling: Null Safety
+
+This repository demonstrates a common error and its solution when handling JSON responses in Dart. The `bug.dart` file showcases a scenario where the code attempts to access a JSON key without checking for null, leading to a runtime exception. The solution provided in `bugSolution.dart` addresses this issue by implementing a null check before accessing the key, preventing unexpected errors.
